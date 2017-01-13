@@ -1,0 +1,123 @@
+{
+    "menus": [{
+        "title": "",
+        "target": "home",
+        "href": "/monitor",
+        "class":"home-unselect",
+        "class_current":"home-current"
+        }, {
+        "title": "企业资源",
+        "target": "enterprise",
+        "class":"companyresource-unselect",
+        "class_current":"companyresource-current",
+        "sec_menus":[{
+            "title": "终端",
+            "target": "enterprise.terminal",
+            "href": "/terminal-list",
+            "class":"fa fa-television"
+        }, {
+            "title": "部门",
+            "target": "enterprise.department",
+            "href": "/enterprise-department",
+            "class":"fa fa-users"
+        }, {
+            "title": "标签",
+            "target": "enterprise.label",
+            "href": "/enterprise-label",
+            "class":"fa fa-tag"
+        }]
+        }, {
+        "title": "策略管理",
+        "target": "policy",
+        "class":"strategymanagement-unselect",
+        "class_current":"strategymanagement-current",
+        "sec_menus":[{
+            "title": "白名单",
+            "target": "policy.whitelist",
+            "href": "/policy-whitelist",
+            "class":"fa fa-list-alt"
+        },{
+            "title": "安全策略",
+            "target": "policy.safe",
+            "href": "/policy-safe",
+            "class":"fa fa-shield"
+        },{
+            "title": "知识库",
+            "target": "policy.knowledge",
+            "href": "#",
+            "class":"fa fa-graduation-cap"
+        },{
+            "title": "基本设置",
+            "target": "policy.config",
+            "href": "/policy-config",
+            "class":"fa fa-sliders"
+        }]
+        }, {
+        "title": "统计报告",
+        "target": "report",
+        "class":"static-report-unselect",
+        "class_current":"static-report-current",
+        "sec_menus":[{
+            "title": "资产报告",
+            "target": "report.asset",
+            "href": "/reports-asset",
+            "class":"fa fa-file-text-o"
+        },{
+            "title": "安全报告",
+            "target": "report.safety",
+            "href": "/reports-safety",
+            "class":"fa fa-shield"
+        },{
+            "title": "审计报告",
+            "target": "report.audit",
+            "href": "/reports-audit",
+            "class":"fa fa-files-o"
+        },{
+            "title": "定制报告",
+            "target": "report.made",
+            "href": "/reports-made",
+            "class":"fa fa-clipboard"
+        }]
+        }, {
+        "title": "系统配置",
+        "target": "system",
+        "class":"systemsetting-unselect",
+        "class_current":"systemsetting-current",
+        "sec_menus":[{
+            "title": "网络",
+            "target": "system.network_edit",
+            "href": "/system-networkedit",
+            "class":"fa fa-wifi"
+        },{
+            "title": "备份与升级",
+            "target": "system.backup",
+            "href": "/system-backup",
+            "class":"fa fa-cloud-upload"
+        },{
+            "title": "许可证",
+            "target": "system.licence",
+            "href": "/system-licence",
+            "class":"fa fa-credit-card"
+        },{
+            "title": "管理员",
+            "target": "system.user",
+            "href": "/system-user",
+            "class":"fa fa-user"
+        },{
+            "title": "调试日志",
+            "target": "system.log",
+            "href": "/system-log",
+            "class":"fa fa-file-text"
+        },{
+            "title": "设置",
+            "target": "system.setting",
+            "href": "/system-setting",
+            "class":"fa fa-sliders"
+        },{
+            "title": "企业定制",
+            "target": "system.customize",
+            "href": "/system-customize",
+            "class":"fa fa-cogs"
+        }]
+    }]
+}
